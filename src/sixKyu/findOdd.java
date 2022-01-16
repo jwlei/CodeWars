@@ -58,4 +58,15 @@ public class FindOdd {
     return 0;
   }
 }
+___________________________________________________________
+    return Arrays.stream(a)
+                 .boxed()
+                 .collect(Collectors.groupingBy(Function.identity()))
+                 .entrySet()
+                 .stream()
+                 .filter(e -> e.getValue().size() % 2 == 1)
+                 .mapToInt(e -> e.getKey())
+                 .findFirst()
+                 .getAsInt();
+    }
  */
