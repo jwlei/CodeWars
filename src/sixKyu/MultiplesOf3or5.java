@@ -1,4 +1,4 @@
-package SIXKyu;
+package sixKyu;
 
 import java.util.stream.IntStream;
 

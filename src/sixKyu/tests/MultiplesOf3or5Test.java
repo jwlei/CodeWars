@@ -1,5 +1,5 @@
-package SIXKyu.tests;
-import SIXKyu.MultiplesOf3or5;
+package sixKyu.tests;
+import sixKyu.MultiplesOf3or5;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
